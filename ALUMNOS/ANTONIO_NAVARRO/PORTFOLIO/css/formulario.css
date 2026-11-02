@@ -35,3 +35,25 @@
 .formulario fieldset input { margin-right: 8px; }
 
 .formulario button { font-size: 16px; cursor: pointer; }
+.formulario button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 24px;
+    border: 1px solid var(--accent);
+    border-radius: 30px;
+    background-color: var(--accent);
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #ffb18c;
+}
+
+.formulario button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}

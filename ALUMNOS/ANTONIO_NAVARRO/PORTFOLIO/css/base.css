@@ -59,17 +59,12 @@ button{
     color: #000000;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
-    border-width: 2px;
-    border-color: #000000;
     padding: 12px 24px;
     font-size: 24px;
 }
 
 /* Respuesta visual del botón cuando se pasa el cursor por encima. */
 button:hover{
-    background-color: #000000;
-    color: #F59D78;
-    border-width: 2px;
-    border-color: #F59D78;
+    background-color: #ffb18c;
+    color: #000000;
 }
-
